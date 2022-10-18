@@ -1,6 +1,7 @@
 import axios from "axios";
 
-export const wp_json_url = "https://headlessdemoml.wpengine.com/wp-json/wp/v2";
+export const BASE_WP_URL = process.env.REACT_APP_BASE_WP_URL;
+export const wp_json_url = BASE_WP_URL . "/wp-json/wp/v2";
 
 let dynamicRoutes = () => {
 	const routes = axios
