@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const BASE_WP_URL = process.env.BASE_WP_URL;
-export const wp_json_url = BASE_WP_URL . "/wp-json/wp/v2";
+export const wp_json_url = BASE_WP_URL + '/wp-json/wp/v2';
 
 let dynamicRoutes = () => {
 	const routes = axios
