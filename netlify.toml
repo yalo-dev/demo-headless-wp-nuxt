@@ -3,4 +3,3 @@
   command = "npm run generate"
 [build.environment]
   NODE_VERSION = "11"
-  REACT_APP_BASE_WP_URL=$BASE_WP_URL
