@@ -1,4 +1,4 @@
-const siteURL = "https://digitalyalo.com"
+const siteURL = "https://headlessdemoml.wpengine.com"
 
 export const state = () => ({
   posts: [],
